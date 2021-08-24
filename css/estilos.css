@@ -1,0 +1,47 @@
+/* STRUCTURE */
+/*
+-FONTS
+    -TYPOGRAPJY
+-HEADER
+-INDEX
+-FOOSTER */
+
+/* -----------------------------------FONTS----------------------------- */
+@font-face¨{
+    font-family:'Rich'
+    /* NO PONER TIPOGRAFIA DE RESPALDO */
+
+}
+
+.text-center{
+    text-align: center;
+    
+}
+
+/*LAS CLASES SE REPRESENTAN CON UN PUNTO. Y SON EL IDENTIFICADOR QUE TRARAREMOS DE USAR SIEMPRE PARA DAR ESTILOS*/
+
+.background-light{
+    background-color: #768591;
+    padding: 300px 50px 200px 30px;
+    /* PADDING ES EL MARGEN INTERIOR */
+    margin: 150px;
+    /* MARGIN ES EL ESPACIO EXTERIOR */
+
+}
+
+/* LAS CLASES PUEDEN SOBREESCRIBIRSE, LA QUE ESTE MAS CERCA DEL FINAL DEL ARCHIVO DE ESTILOS ES LA QUE VA A APLICARSE */
+.font-1{
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+    
+    /*PODEMOS PONER ESTILOS A ID'S PERO TRATAMOS DE EVITARLO POR BUENA PRACTICA */
+#acerca{
+
+}
+

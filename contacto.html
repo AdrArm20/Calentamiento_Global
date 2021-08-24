@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactame</title>
+</head>
+<body>
+     <!-- BEGIN: HEADER -->
+     <header>
+        <nav>
+            <ul>
+                <li><a href="index.html#acerca">Acerca de</a></li>
+                <li><a href="index.html#proyectos">Proyectos</a></li>
+                <li><a href="contacto.html#formulario">Contactame</a></li>
+                <li><a href="https://www:facebook.com">Sigueme</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- END: HEADER -->
+    <main>
+        <section>
+            <div style="height: 1200px;">
+                <h1>Ponte en contacto</h1>
+            </div>
+        </section>
+        <!-- BEGIN: FORM -->
+        <section id="formulario">
+            <h2>Llena este formulario y en breve me comunicare contigo</h2>
+            <form>
+                <label for="fistname">
+                <p>Dinos tu Nombre</p>
+                <input type="text" name="firstname" placeholder="Tus nombre(s)" required>
+            </label>
+            <label for="lastname">
+                <p>Dinos tu Apellido</p>
+                <input type="text" name="lastname" placeholder="Apellido" required>
+            </label>
+            <p>Numero de Telefono</p>
+            <label for="phone">
+                <input type="tel" name="phone" required>
+            </label>
+            <label for="email">
+                <p>Tu Email</p>
+                <input type="email" name="email" placeholder="correo@ejemplo.com" required>
+            </label>
+            <p>¿Que dia quieres tu cita?</p>
+            <label for="appointment">
+                <input type="date" name="appointment">
+            </label>
+            <label for="submit">
+                <input type="submit" value="Enviar Informacion">
+            </label>
+            </form>
+        </section>
+        <!-- END: FORM -->
+    </main>
+</body>
+</html>
