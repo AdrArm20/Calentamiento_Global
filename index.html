@@ -2,6 +2,21 @@
 <html lang="en">
 <!-- HEAD: PONEMOS LOS VINCULOS A LOS ARCHIVOS, INCLUIDOS LOS ESTILOS (CSS) -->
 <head>
+
+    <style>
+        @media screen and (min-width: 1200px){
+          body {
+              /* ESTA ES MI MEDIDA MAXIMA ASI QUE NO TENGO COSAS QUE PONER */
+          }           
+        }
+
+        @media screen and (max-width: 450px){
+            body {
+                
+            }
+        }
+    </style>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,22 +29,27 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
 
 
-
 </head>
 <body>
-    <!-- BEGIN: HEADER -->
-    <header class="menucolor">
-        <nav class="menu">
-            <ul>
-                <li><a href="index.html#acerca">Inicio</a></li>
-                <li><a href="index.html#proyectos">Proyectos</a></li>
-                <li><a href="contacto.html#formulario">Contactame</a></li>
-                <li><a href="https://www:facebook.com">Sigueme</a></li>
-                <li><a href="galeria.html">Galeria</a></li>
-            </ul>
-        </nav>
-    </header>
-    <!-- END: HEADER -->
+<!-- BEGIN: HEADER -->
+ <header class="menucolor">
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html#inicio">Inicio</a></li>
+            <p>
+            <li><a href="index.html#proyectos">Informacion</a></li>
+            <p>
+            <li><a href="contacto.html#formulario">Contactame</a></li>
+            <p>
+            <li><a href="sigueme.html">Sigueme</a></li>
+            <p>
+            <li><a href="galeria.html">Galeria</a></li>
+            <p>
+            <li><a href="pokemon.html">Ejemplo</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- END: HEADER -->
     <main>
     <!-- BEGIN: CONOCEME -->
     <section id="acerca" class="bgImageArcercaDeMi font-1">
@@ -37,19 +57,18 @@
     </section>
     <!-- END: CONOCEME -->
     <!-- BEGIN: PROYECTOS -->
-    <center>
+
     <section id="proyectos" class="background-light font-1">
-        <div>
+        <div class="text-center">
             <h2>Esto es lo que hecho</h2>
             <p>Entrar a un curso de programacion web</p>
-            <img src="img/Programacion de pagina Web.jpg" width="600" alt="Imagen del lenguaje de programacion Web">
+            <img src="img/Programacion de pagina Web.jpg" width="60%" alt="Imagen del lenguaje de programacion Web">
             <br>
             <small>Dale <b>clik</b> para ver mi progreso</small>
             <br>
-            <!-- <img src="img/Imagen de atardeser San carlos.jpg" width="600" alt="Atardeser de Guaymas, San Carlos"> -->
         </div>
     </section>
-</center>
+
     <!-- END: PROYECTOS -->
     <!-- BEGIN: FOOTER -->
     <footer style="background-color: #727273; padding: 30px;">

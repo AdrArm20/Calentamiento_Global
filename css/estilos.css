@@ -1,15 +1,30 @@
 /* STRUCTURE */
 /*
 -FONTS
-    -TYPOGRAPJY
+-TYPOGRAPJY
 -HEADER
 -INDEX
 -FOOSTER */
 
+/* ---------------PC------------- */
+
+@media screen and (min-width: 750px) {
+    ul {
+        display: flex; 
+    }
+}
+
+/* -------------Celulares------------ */
+@media screen and (max-width: 400px) {
+    ul {
+        
+    }
+}
+
 /* -----------------------------------FONTS----------------------------- */
 @font-face¨{
     font-family:'Rich'
-    fo
+
     /* NO PONER TIPOGRAFIA DE RESPALDO */
 
 }
@@ -22,14 +37,14 @@
 /* ---------------------HEADER------------------------------- */
 
 .menucolor{
-    background-color: #000;
+    background-color: gray;
     padding: 2%;
     margin: auto -15px;
     
 }
 
 .menu ul{
-    display: flex;
+   
     justify-content: space-around;
     list-style: none;
     font-size: 1.60em;
@@ -42,7 +57,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin: auto -15px;
-    padding: 27%;
+    padding: 26%;
     
 }
 
