@@ -25,9 +25,10 @@
     <link rel="stylesheet" href="css/estilos.css">
     <!-- RELEWAY FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet">
+    <!-- EFECTOS TITLE -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <body>
@@ -37,7 +38,7 @@
         <ul>
             <li><a href="index.html#inicio">Inicio</a></li>
             <p>
-            <li><a href="index.html#proyectos">Informacion</a></li>
+            <li><a href="index.html#proyectos">Proyectos</a></li>
             <p>
             <li><a href="contacto.html#formulario">Contactame</a></li>
             <p>
@@ -56,39 +57,93 @@
         
     </section>
     <!-- END: CONOCEME -->
+
+    <!-- BEGIN: INFORMACION -->
+    <footer style="background-color: cadetblue; margin: 350px; padding: 10%;" class="text-style">
+        <div data-aos="zoom-in-up"
+        data-aos-offset="600"
+        data-aos-easing="ease-in-sine">
+        ¿Que es el cambio climatico?
+        </div>
+        <div data-aos="zoom-in-up"
+        data-aos-offset="600"
+        data-aos-easing="ease-in-sine" class="text-style">
+            El cambio climático que vivimos en la actualidad es producto del efecto invernadero que se estima inició hace 120 años, cuando las concentraciones de bióxido de carbono rebasaron los límites permisibles representando un peligro para la existencia y conservación de los ecosistemas de nuestro país. Hoy en día existe una preocupación acerca de los problemas que traen consigo la magnitud de este cambio.
+        </div>
+    </footer>
+    <footer class="text-center" >
+    <div style="background-color: cadetblue; margin: 350px; padding: 10%;">
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2500" class="text-style">
+        ¿Que es el efecto invernadero?
+        </div>
+        <div data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2500"
+        class="text-style">
+            El efecto invernadero es el fenómeno por el que la energía solar recibida en cada momento por la Tierra que proviene de la radiación solar natural no puede volver al espacio
+        </div>
+    </div>
+    </footer>
+    <footer style="background-color: cadetblue; margin: 350px; padding: 10%;" class="text-style">
+        <div data-aos="fade-up"
+        data-aos-anchor-placement="bottom-bottom">
+            <div>Consecuencias del Calentamiento Global</div>
+            <li>Aumento de las temperaturas.</li>
+            <li>Deforestación.</li>
+            <li>Subida del nivel del mar.</li>
+            <li>Disminución de la biodiversidad</li>
+            <li>Refugiados climáticos.</li>
+        </div>
+    </footer>
+    <footer style="background-color: cadetblue; margin: 350px; padding: 10%;" class="text-style">
+        <div data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+            <div>Que hacer para evitarlo</div>
+                <li>Potenciar las energías renovables.</li>
+                <li>Disminuir el uso del coche.</li>
+                <li>Plantar árboles</li>
+                <li>Reciclar.</li>
+                <li>Comprar electrodomésticos eficientes.</li>
+        </div>
+    </footer>
+    <!-- END: INFORMACION -->
+
     <!-- BEGIN: PROYECTOS -->
 
-    <section id="proyectos" class="background-light font-1">
+    <section id="proyectos" class="background-light font-1"
+    data-aos="zoom-in-up"
+        data-aos-offset="600"
+        data-aos-easing="ease-in-sine">
         <div class="text-center">
             <h2>Esto es lo que hecho</h2>
             <p>Entrar a un curso de programacion web</p>
+            <p>Y terminarlo con exito</p>
+            <p>Espero hacer mas paginas :)</p>
             <img src="img/Programacion de pagina Web.jpg" width="60%" alt="Imagen del lenguaje de programacion Web">
             <br>
-            <small>Dale <b>clik</b> para ver mi progreso</small>
+            <small>Dale <b>click</b> para ver mi progreso</small>
             <br>
         </div>
     </section>
 
     <!-- END: PROYECTOS -->
-    <!-- BEGIN: FOOTER -->
-    <footer style="background-color: #727273; padding: 30px;">
-        <div>
-            <ol style="color: white;">
-                <li>Ubicacion: Sonora</li>
-                <li>Telefono: <a href="tel:5555555555">5555555555</a></li>
-                <li>Mail: <a href="mailto:correo@ejemplo.com">correo@ejemplo.com</a></li>
-            </ol>
-        </div>
-    </footer>
-    <!-- END:FOOTER -->
     </main>
     <script>
+        mi_pokemon = "Usuari@"
+        alert("Bienvenido " + mi_pokemon)
+    </script>
+    <script>
+
         /* USAR FORMATO CAMELCASE #estoyAprendiendoJavascript
         ESTE ES UN COMENTARIO
         DE VARIAS LINEAS EN JAVASCRIPT
         XD */
         // ESTE ES UN COMENTARIO DE UNA SOLA LINEA
 
+        
         var num1 = 10;
         const num2 = 5;
         let num3 =3;
@@ -103,5 +158,10 @@
         console.log(txt1 + space + txt2 + txt3)
     </script>
     <script src="js/script.js"></script>
+    <!-- EFECTOS DE JAVASCRIPT -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

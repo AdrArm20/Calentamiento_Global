@@ -4,7 +4,8 @@
 -TYPOGRAPJY
 -HEADER
 -INDEX
--FOOSTER */
+-FOOSTER
+EFECTOS */
 
 /* ---------------PC------------- */
 
@@ -37,7 +38,7 @@
 /* ---------------------HEADER------------------------------- */
 
 .menucolor{
-    background-color: gray;
+    background-color: cadetblue;
     padding: 2%;
     margin: auto -15px;
     
@@ -65,8 +66,8 @@
 /*LAS CLASES SE REPRESENTAN CON UN PUNTO. Y SON EL IDENTIFICADOR QUE TRARAREMOS DE USAR SIEMPRE PARA DAR ESTILOS*/
 
 .background-light{
-    background-color: #768591;
-    padding: 13%;
+    background-color: rgb(47, 201, 175) ;
+    padding: 15%;
     /* PADDING ES EL MARGEN INTERIOR */
     margin: 10px;
     /* MARGIN ES EL ESPACIO EXTERIOR */
@@ -89,3 +90,6 @@
 
 }
 
+.text-style{
+    font-family: 'Roboto';
+}

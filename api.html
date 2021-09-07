@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima Api</title>
+</head>
+<body>
+           <!-- BEGIN: HEADER -->
+ <header class="menucolor">
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html#inicio">Inicio</a></li>
+            <li><a href="index.html#proyectos">Informacion</a></li>
+            <li><a href="contacto.html#formulario">Contactame</a></li>
+            <li><a href="sigueme.html">Sigueme</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="pokemon.html">Ejemplo</a></li>
+            <li><a href="api.html">Api clima</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- END: HEADER -->
+    <h2></h2>
+    <p>El clima en Guaymas Sonora es: <span id="clima"></span></p>
+
+</body>
+<script>
+ url = "http://home.openweathermap.org/currentaccess_key=a390f9ccb5f9b92150e20fab601bd70e & query = guaymas"
+
+    fetch(url).then(function(response) {
+        //AQUI ESTABLECEMOS LO QUE PASA CUANDO LA CONEXION ES CORRECTA
+        return response.json();
+    }.then(function(main) {
+        var getP = document.getElementById("temp");
+        getP.innerHTML = main.temp;
+        console.log(main);
+        //SE ME DIFUCULTO MUCHO Y NO APRARECIA DE FORMA CORRECTA :(
+        //ESPERO QUE LES SIRVA
+    })
+</script>
+</html>
